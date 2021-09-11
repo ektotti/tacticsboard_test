@@ -1,0 +1,31 @@
+.field{
+    position:relative;
+    width:400px;
+    height: 500px;
+    margin:50px auto;
+    border:1px solid black;
+    z-index: 100;
+}
+
+.player{
+    position: absolute;
+    &.mouseDowned{
+        z-index: 1000;
+
+        & .player__icon{
+            color:gray;
+            box-shadow: 0 0 2px 2px gray inset;
+        }
+    }
+    &__icon{
+        height:50px;
+        width:50px;
+        border:1px solid black;
+        border-radius: 50% 50%;
+        pointer-events: none;
+    }
+
+    &:nth-child(2){
+        left:70px;
+    }
+}
