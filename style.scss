@@ -9,23 +9,43 @@
 
 .player{
     position: absolute;
-    &.mouseDowned{
-        z-index: 1000;
 
-        & .player__icon{
-            color:gray;
-            box-shadow: 0 0 2px 2px gray inset;
-        }
-    }
     &__icon{
         height:50px;
         width:50px;
         border:1px solid black;
         border-radius: 50% 50%;
-        pointer-events: none;
+        margin: auto;
+        // pointer-events: none;
+
+        &.mouseDowned{
+            z-index: 1000;
+            color:gray;
+            box-shadow: 0 0 2px 2px gray inset;
+        }
     }
 
-    &:nth-child(2){
-        left:70px;
+    &__name{
+        width: 60px;
+        text-align: center;
+        background-color: transparent;
     }
+
+
+    // formの表示と非表示をclickイベントで操作
+    &__name--form{
+        display: none;
+
+        &.inview{
+            display:block;
+        }
+
+    }
+
+    &__name--input{
+        width: 60px;
+        text-align: center;
+        background-color: transparent;
+    }
+
 }

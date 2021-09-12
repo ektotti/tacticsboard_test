@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,15 +13,17 @@
             <div class="field">
                 <div class="player">
                     <div class="player__icon"></div>
+                    <!-- 上書きをしたい要素 -->
                     <span class="player__name">player1</span>
-                </div>
-                <div class="player">
-                    <div class="player__icon"></div>
-                    <span class="player__name">player2</span>
+                    <!-- 上書きしたい内容を記入するform -->
+                    <form class="player__name--form" action="">
+                        <input type="text" class="player__name--input" id="playerName"　size="15">
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="js/playerName.js"></script>
+    <!-- <script src="js/playerMove.js"></script> -->
 </body>
 </html>

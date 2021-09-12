@@ -11,25 +11,40 @@
   position: absolute;
 }
 
-.player.mouseDowned {
-  z-index: 1000;
-}
-
-.player.mouseDowned .player__icon {
-  color: gray;
-  -webkit-box-shadow: 0 0 2px 2px gray inset;
-          box-shadow: 0 0 2px 2px gray inset;
-}
-
 .player__icon {
   height: 50px;
   width: 50px;
   border: 1px solid black;
   border-radius: 50% 50%;
-  pointer-events: none;
+  margin: auto;
 }
 
-.player:nth-child(2) {
-  left: 70px;
+.player__icon.mouseDowned {
+  z-index: 1000;
+  color: gray;
+  -webkit-box-shadow: 0 0 2px 2px gray inset;
+          box-shadow: 0 0 2px 2px gray inset;
+}
+
+.player__name {
+  width: 60px;
+  text-align: center;
+  background-color: transparent;
+}
+
+/* 初期状態はformを非表示 */
+.player__name--form {
+  display: none;
+}
+
+/* clickイベントでformを表示させる */
+.player__name--form.inview {
+  display: block;
+}
+
+.player__name--input {
+  width: 60px;
+  text-align: center;
+  background-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */
