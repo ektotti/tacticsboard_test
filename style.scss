@@ -9,11 +9,14 @@
 
 .player{
     position: absolute;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
 
     &__icon{
-        height:50px;
-        width:50px;
-        border:1px solid black;
+        height: 30px;
+        width: 30px;
+        border: 1px solid black;
         border-radius: 50% 50%;
         margin: auto;
         // pointer-events: none;
@@ -29,13 +32,19 @@
         width: 60px;
         text-align: center;
         background-color: transparent;
+        font-size: x-small;
     }
 
 
     // formの表示と非表示をclickイベントで操作
-    &__name--form{
+    &__name--set{
+        position: absolute;
         display: none;
-
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        z-index: 1000;
+        background-color: gray;
         &.inview{
             display:block;
         }
