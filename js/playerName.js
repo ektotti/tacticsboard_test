@@ -1,27 +1,40 @@
-let playerName = document.querySelector('.player__name');
+let playerName = document.querySelectorAll('.player__name');
 let nameInpBtn = document.querySelector('.player__name--button')
 let nameInput = document.querySelector('#playerName');
 
-playerName.addEventListener('click', inputPlayerName);
-nameInpBtn.addEventListener('click', setPlayerName);
+for(let i = 0; i < 3; i++){
 
-// formのクラスにinvieを追加して入力欄を出現させる。
-function inputPlayerName(event){
-    let nameSet = document.querySelector('.player__name--set')
-    nameSet.classList.add('inview');
+    playerName[i].addEventListener('click', inputPlayerName);
+
 }
 
-// formの内容をsubmitして、その内容を対象spanタグのtextContentに代入
+nameInpBtn.addEventListener('click', setPlayerName);
+
+// formのクラスにinviewを追加して入力欄を出現させる。
+function inputPlayerName(event){
+    this.classList.add('edited');
+    let nameSet = document.querySelector('.player__name--set')
+    nameSet.classList.add('inview');
+
+}
+    
+// formを入力して、その内容をclickイベントで対象spanタグのtextContentに代入
 function setPlayerName(event){
+    let editedPlayer = document.querySelector('.edited');
+    console.log(editedPlayer);
     let inputValue = nameInput.value;
     if(inputValue == ""){
-        playerName.textContent = "player1";  
+        editedPlayer.textContent = "player";  
     }else{
-        playerName.textContent = inputValue;
+        editedPlayer.textContent = inputValue;
     }
 
     inputValue = "";
     let nameSet = document.querySelector('.player__name--set')
     nameSet.classList.remove('inview');
+    editedPlayer.classList.remove('edited');
+
 }
+
+
 

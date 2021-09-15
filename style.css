@@ -1,7 +1,12 @@
+@charset "UTF-8";
 .field {
   position: relative;
-  width: 400px;
-  height: 500px;
+  background-image: url(image/無題のプレゼンテーション.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 700px;
+  height: 900px;
   margin: 50px auto;
   border: 1px solid black;
   z-index: 100;
@@ -17,6 +22,128 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.player:nth-child(1) {
+  left: 40px;
+}
+
+.player__icon {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 50% 50%;
+  margin: auto;
+}
+
+.player__icon.mouseDowned {
+  z-index: 1000;
+  color: gray;
+  -webkit-box-shadow: 0 0 2px 2px gray inset;
+          box-shadow: 0 0 2px 2px gray inset;
+}
+
+.player__name {
+  width: 60px;
+  text-align: center;
+  background-color: transparent;
+  font-size: x-small;
+}
+
+.player__name--set {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: gray;
+}
+
+.player__name--set.inview {
+  display: block;
+}
+
+.player__name--input {
+  width: 60px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.player {
+  position: absolute;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.player:nth-child(2) {
+  left: 80px;
+}
+
+.player__icon {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 50% 50%;
+  margin: auto;
+}
+
+.player__icon.mouseDowned {
+  z-index: 1000;
+  color: gray;
+  -webkit-box-shadow: 0 0 2px 2px gray inset;
+          box-shadow: 0 0 2px 2px gray inset;
+}
+
+.player__name {
+  width: 60px;
+  text-align: center;
+  background-color: transparent;
+  font-size: x-small;
+}
+
+.player__name--set {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: gray;
+}
+
+.player__name--set.inview {
+  display: block;
+}
+
+.player__name--input {
+  width: 60px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.player {
+  position: absolute;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.player:nth-child(3) {
+  left: 120px;
 }
 
 .player__icon {
