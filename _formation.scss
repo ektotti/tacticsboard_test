@@ -1,0 +1,57 @@
+@import '_variables.scss';
+
+.player.formA{
+    &#player1{
+        top:$gk-t;
+        left:$gk-l;
+    }
+    &#player2{
+        top:$lcb-t;
+        left:$lcb-l;
+    }
+    &#player3{
+        top:$rcb-t;
+        left:$rcb-l;
+    }
+    &#player4{
+        top:$lsb-t;
+        left:$lsb-l;
+    }
+    &#player5{
+        top:$rsb-t;
+        left:$rsb-l;
+    }
+    &#player6{
+        top:$lch-t;
+        left:$lch-l;
+    }
+    &#player7{
+        top:$rch-t;
+        left:$rch-l;
+    }
+    &#player8{
+        top:$lsh-t;
+        left:$lsh-l;
+    }
+    &#player9{
+        top:$rsh-t;
+        left:$rsh-l;
+    }
+    &#player10{
+        top:$omf-t;
+        left:$omf-l;
+    }
+    &#player11{
+        top:$cf-t;
+        left:$cf-l;
+    }
+    @for $i from 12 through 19{
+
+        &#player#{$i}{
+            top:calc(300px + (#{$i} - 11) * 60px);
+            left:-2px;
+        }
+
+    }
+    
+}

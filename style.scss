@@ -1,3 +1,5 @@
+@import '_formation.scss';
+
 .field{
     position:relative;
     background-image: url(image/無題のプレゼンテーション.jpg);
@@ -11,18 +13,12 @@
     z-index: 100;
 }
 
-@for $i from 1 through 3 {
+
     .player{
         position: absolute;
         width: 60px;
         display: flex;
         flex-direction: column;
-
-        
-            &:nth-child(#{$i}){
-                left:1px * $i * 40;
-            }
-
 
         &__icon{
             height: 30px;
@@ -68,5 +64,18 @@
             background-color: transparent;
         }
 
+    }
+@for $i from 1 through 38 {
+    #player#{$i}{
+
+        @if $i <= 19 {
+            & > .player__icon{
+                background-color:hotpink;
+            }
+        } @else{
+            & > .player__icon{
+                background-color:purple;
+            }
+        }
     }
 }

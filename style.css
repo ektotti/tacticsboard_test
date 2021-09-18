@@ -1,4 +1,99 @@
 @charset "UTF-8";
+.player.formA#player1 {
+  top: 790px;
+  left: 320px;
+}
+
+.player.formA#player2 {
+  top: 615px;
+  left: 250px;
+}
+
+.player.formA#player3 {
+  top: 615px;
+  left: 390px;
+}
+
+.player.formA#player4 {
+  top: 560px;
+  left: 100px;
+}
+
+.player.formA#player5 {
+  top: 560px;
+  left: 540px;
+}
+
+.player.formA#player6 {
+  top: 470px;
+  left: 250px;
+}
+
+.player.formA#player7 {
+  top: 470px;
+  left: 390px;
+}
+
+.player.formA#player8 {
+  top: 300px;
+  left: 100px;
+}
+
+.player.formA#player9 {
+  top: 300px;
+  left: 540px;
+}
+
+.player.formA#player10 {
+  top: 300px;
+  left: 320px;
+}
+
+.player.formA#player11 {
+  top: 200px;
+  left: 320px;
+}
+
+.player.formA#player12 {
+  top: calc(300px + (12 - 11) * 60px);
+  left: -2px;
+}
+
+.player.formA#player13 {
+  top: calc(300px + (13 - 11) * 60px);
+  left: -2px;
+}
+
+.player.formA#player14 {
+  top: calc(300px + (14 - 11) * 60px);
+  left: -2px;
+}
+
+.player.formA#player15 {
+  top: calc(300px + (15 - 11) * 60px);
+  left: -2px;
+}
+
+.player.formA#player16 {
+  top: calc(300px + (16 - 11) * 60px);
+  left: -2px;
+}
+
+.player.formA#player17 {
+  top: calc(300px + (17 - 11) * 60px);
+  left: -2px;
+}
+
+.player.formA#player18 {
+  top: calc(300px + (18 - 11) * 60px);
+  left: -2px;
+}
+
+.player.formA#player19 {
+  top: calc(300px + (19 - 11) * 60px);
+  left: -2px;
+}
+
 .field {
   position: relative;
   background-image: url(image/無題のプレゼンテーション.jpg);
@@ -24,10 +119,6 @@
           flex-direction: column;
 }
 
-.player:nth-child(1) {
-  left: 40px;
-}
-
 .player__icon {
   height: 30px;
   width: 30px;
@@ -71,121 +162,155 @@
   background-color: transparent;
 }
 
-.player {
-  position: absolute;
-  width: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+#player1 > .player__icon {
+  background-color: hotpink;
 }
 
-.player:nth-child(2) {
-  left: 80px;
+#player2 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__icon {
-  height: 30px;
-  width: 30px;
-  border: 1px solid black;
-  border-radius: 50% 50%;
-  margin: auto;
+#player3 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__icon.mouseDowned {
-  z-index: 1000;
-  color: gray;
-  -webkit-box-shadow: 0 0 2px 2px gray inset;
-          box-shadow: 0 0 2px 2px gray inset;
+#player4 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__name {
-  width: 60px;
-  text-align: center;
-  background-color: transparent;
-  font-size: x-small;
+#player5 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__name--set {
-  position: absolute;
-  display: none;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  z-index: 1000;
-  background-color: gray;
+#player6 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__name--set.inview {
-  display: block;
+#player7 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__name--input {
-  width: 60px;
-  text-align: center;
-  background-color: transparent;
+#player8 > .player__icon {
+  background-color: hotpink;
 }
 
-.player {
-  position: absolute;
-  width: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+#player9 > .player__icon {
+  background-color: hotpink;
 }
 
-.player:nth-child(3) {
-  left: 120px;
+#player10 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__icon {
-  height: 30px;
-  width: 30px;
-  border: 1px solid black;
-  border-radius: 50% 50%;
-  margin: auto;
+#player11 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__icon.mouseDowned {
-  z-index: 1000;
-  color: gray;
-  -webkit-box-shadow: 0 0 2px 2px gray inset;
-          box-shadow: 0 0 2px 2px gray inset;
+#player12 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__name {
-  width: 60px;
-  text-align: center;
-  background-color: transparent;
-  font-size: x-small;
+#player13 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__name--set {
-  position: absolute;
-  display: none;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  z-index: 1000;
-  background-color: gray;
+#player14 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__name--set.inview {
-  display: block;
+#player15 > .player__icon {
+  background-color: hotpink;
 }
 
-.player__name--input {
-  width: 60px;
-  text-align: center;
-  background-color: transparent;
+#player16 > .player__icon {
+  background-color: hotpink;
+}
+
+#player17 > .player__icon {
+  background-color: hotpink;
+}
+
+#player18 > .player__icon {
+  background-color: hotpink;
+}
+
+#player19 > .player__icon {
+  background-color: hotpink;
+}
+
+#player20 > .player__icon {
+  background-color: purple;
+}
+
+#player21 > .player__icon {
+  background-color: purple;
+}
+
+#player22 > .player__icon {
+  background-color: purple;
+}
+
+#player23 > .player__icon {
+  background-color: purple;
+}
+
+#player24 > .player__icon {
+  background-color: purple;
+}
+
+#player25 > .player__icon {
+  background-color: purple;
+}
+
+#player26 > .player__icon {
+  background-color: purple;
+}
+
+#player27 > .player__icon {
+  background-color: purple;
+}
+
+#player28 > .player__icon {
+  background-color: purple;
+}
+
+#player29 > .player__icon {
+  background-color: purple;
+}
+
+#player30 > .player__icon {
+  background-color: purple;
+}
+
+#player31 > .player__icon {
+  background-color: purple;
+}
+
+#player32 > .player__icon {
+  background-color: purple;
+}
+
+#player33 > .player__icon {
+  background-color: purple;
+}
+
+#player34 > .player__icon {
+  background-color: purple;
+}
+
+#player35 > .player__icon {
+  background-color: purple;
+}
+
+#player36 > .player__icon {
+  background-color: purple;
+}
+
+#player37 > .player__icon {
+  background-color: purple;
+}
+
+#player38 > .player__icon {
+  background-color: purple;
 }
 /*# sourceMappingURL=style.css.map */

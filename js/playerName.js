@@ -2,7 +2,7 @@ let playerName = document.querySelectorAll('.player__name');
 let nameInpBtn = document.querySelector('.player__name--button')
 let nameInput = document.querySelector('#playerName');
 
-for(let i = 0; i < 3; i++){
+for(let i = 0; i < 19; i++){
 
     playerName[i].addEventListener('click', inputPlayerName);
 
