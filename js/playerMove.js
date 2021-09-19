@@ -1,7 +1,8 @@
 const player = document.querySelectorAll('.player');
 const player_icon = document.querySelectorAll('.player__icon');
 const field = document.querySelector('.field');
-const formset = document.querySelector('.formset');
+const formsetA = document.querySelector('.formsetA');
+const formsetB = document.querySelector('.formsetB');
 
 let x;
 let y;
@@ -44,7 +45,14 @@ for(let i = 0; i < 38; i++){
         mouseDowned.classList.remove("mouseDowned");
     }
 
-    formset.addEventListener('click', function(){
+    formsetA.addEventListener('click', function(){
         player[i].classList.add('formA');  
+    });
+    formsetB.addEventListener('click', function(){
+        player[i].style.transition='all 1s';  
+        player[i].classList.remove('formA');  
+        player[i].classList.add('formB');
+        // player[i].style.transition='none';  
+
     });
 }

@@ -2,14 +2,14 @@
 
 .field{
     position:relative;
-    background-image: url(image/無題のプレゼンテーション.jpg);
+    background-image: url(image/fieldImage.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    width:700px;
-    height: 900px;
+    width:1000px;
+    height: 750px;
     margin:50px auto;
-    border:1px solid black;
+    border:none;
     z-index: 100;
 }
 

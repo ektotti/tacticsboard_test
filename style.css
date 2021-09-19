@@ -1,109 +1,203 @@
-@charset "UTF-8";
+.player#player12 {
+  top: 690px;
+  left: calc(500px - (12 - 11) * 60px);
+}
+
+.player#player13 {
+  top: 690px;
+  left: calc(500px - (13 - 11) * 60px);
+}
+
+.player#player14 {
+  top: 690px;
+  left: calc(500px - (14 - 11) * 60px);
+}
+
+.player#player15 {
+  top: 690px;
+  left: calc(500px - (15 - 11) * 60px);
+}
+
+.player#player16 {
+  top: 690px;
+  left: calc(500px - (16 - 11) * 60px);
+}
+
+.player#player17 {
+  top: 690px;
+  left: calc(500px - (17 - 11) * 60px);
+}
+
+.player#player18 {
+  top: 690px;
+  left: calc(500px - (18 - 11) * 60px);
+}
+
+.player#player19 {
+  top: 690px;
+  left: calc(500px - (19 - 11) * 60px);
+}
+
+.player#player31 {
+  top: 15px;
+  left: calc(430px + (31 - 30) * 60px);
+}
+
+.player#player32 {
+  top: 15px;
+  left: calc(430px + (32 - 30) * 60px);
+}
+
+.player#player33 {
+  top: 15px;
+  left: calc(430px + (33 - 30) * 60px);
+}
+
+.player#player34 {
+  top: 15px;
+  left: calc(430px + (34 - 30) * 60px);
+}
+
+.player#player35 {
+  top: 15px;
+  left: calc(430px + (35 - 30) * 60px);
+}
+
+.player#player36 {
+  top: 15px;
+  left: calc(430px + (36 - 30) * 60px);
+}
+
+.player#player37 {
+  top: 15px;
+  left: calc(430px + (37 - 30) * 60px);
+}
+
+.player#player38 {
+  top: 15px;
+  left: calc(430px + (38 - 30) * 60px);
+}
+
 .player.formA#player1 {
-  top: 790px;
-  left: 320px;
+  top: 46.6% !important;
+  left: 5% !important;
 }
 
 .player.formA#player2 {
-  top: 615px;
-  left: 250px;
+  top: 30.6% !important;
+  left: 18% !important;
 }
 
 .player.formA#player3 {
-  top: 615px;
-  left: 390px;
+  top: 62% !important;
+  left: 18% !important;
 }
 
 .player.formA#player4 {
-  top: 560px;
-  left: 100px;
+  top: 13.3% !important;
+  left: 21% !important;
 }
 
 .player.formA#player5 {
-  top: 560px;
-  left: 540px;
+  top: 78.6% !important;
+  left: 21% !important;
 }
 
 .player.formA#player6 {
-  top: 470px;
-  left: 250px;
+  top: 295px !important;
+  left: 330px !important;
 }
 
 .player.formA#player7 {
-  top: 470px;
-  left: 390px;
+  top: 415px !important;
+  left: 330px !important;
 }
 
 .player.formA#player8 {
-  top: 300px;
-  left: 100px;
+  top: 175px !important;
+  left: 620px !important;
 }
 
 .player.formA#player9 {
-  top: 300px;
-  left: 540px;
+  top: 525px !important;
+  left: 620px !important;
 }
 
 .player.formA#player10 {
-  top: 300px;
-  left: 320px;
+  top: 46.6% !important;
+  left: 620px !important;
 }
 
 .player.formA#player11 {
-  top: 200px;
-  left: 320px;
+  top: 46.6% !important;
+  left: 750px !important;
 }
 
-.player.formA#player12 {
-  top: calc(300px + (12 - 11) * 60px);
-  left: -2px;
+.player.formB#player1 {
+  top: 46.6% !important;
+  left: 5% !important;
 }
 
-.player.formA#player13 {
-  top: calc(300px + (13 - 11) * 60px);
-  left: -2px;
+.player.formB#player2 {
+  top: 46.6% !important;
+  left: 18% !important;
 }
 
-.player.formA#player14 {
-  top: calc(300px + (14 - 11) * 60px);
-  left: -2px;
+.player.formB#player3 {
+  top: 62% !important;
+  left: 18% !important;
 }
 
-.player.formA#player15 {
-  top: calc(300px + (15 - 11) * 60px);
-  left: -2px;
+.player.formB#player4 {
+  top: 30.6% !important;
+  left: 18% !important;
 }
 
-.player.formA#player16 {
-  top: calc(300px + (16 - 11) * 60px);
-  left: -2px;
+.player.formB#player5 {
+  top: 590px !important;
+  left: 500px !important;
 }
 
-.player.formA#player17 {
-  top: calc(300px + (17 - 11) * 60px);
-  left: -2px;
+.player.formB#player6 {
+  top: 100px !important;
+  left: 500px !important;
 }
 
-.player.formA#player18 {
-  top: calc(300px + (18 - 11) * 60px);
-  left: -2px;
+.player.formB#player7 {
+  top: 415px !important;
+  left: 330px !important;
 }
 
-.player.formA#player19 {
-  top: calc(300px + (19 - 11) * 60px);
-  left: -2px;
+.player.formB#player8 {
+  top: 295px !important;
+  left: 330px !important;
+}
+
+.player.formB#player9 {
+  top: 445px !important;
+  left: 655px !important;
+}
+
+.player.formB#player10 {
+  top: 260px !important;
+  left: 655px !important;
+}
+
+.player.formB#player11 {
+  top: 46.6% !important;
+  left: 750px !important;
 }
 
 .field {
   position: relative;
-  background-image: url(image/無題のプレゼンテーション.jpg);
+  background-image: url(image/fieldImage.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  width: 700px;
-  height: 900px;
+  width: 1000px;
+  height: 750px;
   margin: 50px auto;
-  border: 1px solid black;
+  border: none;
   z-index: 100;
 }
 
