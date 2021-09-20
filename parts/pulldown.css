@@ -1,0 +1,97 @@
+.container {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h2, span {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  margin: 0;
+}
+
+.formation__backsMenu {
+  position: relative;
+  -webkit-transform: scaleY(0%);
+          transform: scaleY(0%);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.formation__backsMenu.inview {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.formation__threeB {
+  position: absolute;
+  z-index: 1000;
+  height: 50px;
+}
+
+.formation__threeB > ul {
+  -webkit-transform: scaleY(0%);
+          transform: scaleY(0%);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.formation__threeB.inview > ul {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.formation__fourB {
+  position: absolute;
+  top: 50px;
+  z-index: 900;
+  height: 50px;
+}
+
+.formation__fourB > ul {
+  -webkit-transform: scaleY(0%);
+          transform: scaleY(0%);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.formation__fourB.inview > ul {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.formation__fiveB {
+  position: absolute;
+  top: 100px;
+  z-index: 800;
+  height: 50px;
+}
+
+.formation__fiveB > ul {
+  -webkit-transform: scaleY(0%);
+          transform: scaleY(0%);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.formation__fiveB.inview > ul {
+  -webkit-transform: none;
+          transform: none;
+}
+/*# sourceMappingURL=pulldown.css.map */
