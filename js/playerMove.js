@@ -1,8 +1,8 @@
 const player = document.querySelectorAll('.player');
 const player_icon = document.querySelectorAll('.player__icon');
 const field = document.querySelector('.field');
-const formsetA = document.querySelector('.formsetA');
-const formsetB = document.querySelector('.formsetB');
+const FORMATION = document.querySelectorAll('.formationNum');
+
 
 let x;
 let y;
@@ -45,14 +45,18 @@ for(let i = 0; i < 38; i++){
         mouseDowned.classList.remove("mouseDowned");
     }
 
-    formsetA.addEventListener('click', function(){
-        player[i].classList.add('formA');  
-    });
-    formsetB.addEventListener('click', function(){
-        player[i].style.transition='all 1s';  
-        player[i].classList.remove('formA');  
-        player[i].classList.add('formB');
-        // player[i].style.transition='none';  
+}
 
+for(let k = 0; k < FORMATION.length; k++ ){
+    console.log(FORMATION[k]);
+    FORMATION[k].addEventListener("click", function(){ 
+        let selectedSystem = FORMATION[k].id; 
+        for(let i2 = 0; i2 < 38; i2++){
+            let classtName = player[i2].className;
+            const pattern = new RegExp(/three\d+|four\d+|five\d+/);
+            let existingSystem = classtName.match(pattern);
+            player[i2].classList.remove(existingSystem);  
+            player[i2].classList.add(selectedSystem);  
+        }
     });
 }

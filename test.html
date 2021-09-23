@@ -10,8 +10,44 @@
 <body>
     <div id="grand-container">
         <div id="container">
-            <button class="formsetA">formationA</button>
-            <button class="formsetB">formationB</button>
+            <div class="config">
+                <nav class="formation">
+                    <ul class="formation__Menu">
+                        <li>
+                            <h2 class="formation__title">Formation</h2>
+                            <ul class="formation__backsMenu">
+                                <li class="formation__threeB">
+                                    <span class="formation__threeB--title">3backs</span>
+                                    <ul class="threeB__list">
+                                        <li><span class="formationNum" id="three43" >3-4-3</span></li>
+                                        <li><span class="formationNum" id="three52" >3-5-2</span></li>
+                                    </ul>
+                                </li>
+                                <li class="formation__fourB">
+                                    <span class="formation__fourB--title">4backs</span>
+                                    <ul class="fourB__list">
+                                        <li><span class="formationNum" id="four231" >4-2-3-1</span></li>
+                                        <li><span class="formationNum" id="four42" >4-4-2</span></li>
+                                        <li><span class="formationNum" id="four33" >4-3-3</span></li>
+                                    </ul>
+                                </li>
+                                <li class="formation__fiveB">
+                                    <span class="formation__fiveB--title">5backs</span>
+                                    <ul class="fiveB__list">
+                                        <li><span class="formationNum" id="five32" >5-3-2</span></li>
+                                        <li><span class="formationNum" id="five41" >5-4-1</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="player__name--set">
+                    <h2>Name</h2>
+                    <input type="text" class="player__name--input" id="playerName" autofocus size="15">
+                    <button class="player__name--button" >set</button>
+                </div>
+            </div>
             <div class="field">
                 <div class="player" id="player1">
                     <div class="player__icon"></div>
@@ -165,13 +201,10 @@
                     <div class="player__icon"></div>
                     <spam class="player__name">player38</spam>
                 </div>                
-                <div class="player__name--set">
-                    <input type="text" class="player__name--input" id="playerName"　autofocus size="15">
-                    <button class="player__name--button" >set</button>
-                </div>
             </div>
         </div>
     </div>
+    <script src="js/pulldown.js"></script>
     <script src="js/playerName.js"></script>
     <script src="js/playerMove.js"></script>
 </body>

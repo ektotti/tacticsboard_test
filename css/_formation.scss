@@ -1,0 +1,115 @@
+@import '_variables.scss';
+
+.player{
+    @for $i from 12 through 19{
+
+        &#player#{$i}{
+            top:690px;
+            left:calc(500px - (#{$i} - 11) * 60px);
+        }
+
+    }
+    @for $i from 31 through 38{
+
+        &#player#{$i}{
+            top:15px;
+            left:calc(430px + (#{$i} - 30) * 60px);
+        }
+
+    }
+}
+
+.player.four231{
+    &#player1{
+        top:$gk-t ;
+        left:$gk-l ;
+    }
+    &#player2{
+        top:$lcb-t ;
+        left:$lcb-l ;
+    }
+    &#player3{
+        top:$rcb-t ;
+        left:$rcb-l ;
+    }
+    &#player4{
+        top:$lsb-t ;
+        left:$lsb-l ;
+    }
+    &#player5{
+        top:$rsb-t ;
+        left:$rsb-l ;
+    }
+    &#player6{
+        top:$lch-t ;
+        left:$lch-l ;
+    }
+    &#player7{
+        top:$rch-t ;
+        left:$rch-l ;
+    }
+    &#player8{
+        top:$lsh-t ;
+        left:$lsh-l ;
+    }
+    &#player9{
+        top:$rsh-t ;
+        left:$rsh-l ;
+    }
+    &#player10{
+        top:$omf-t ;
+        left:$omf-l ;
+    }
+    &#player11{
+        top:$cf-t ;
+        left:$cf-l ;
+    }
+}
+
+.player.three43{
+    &#player1{
+        top:$gk-t ;
+        left:$gk-l ;
+    }
+    &#player2{
+        top:$cb-t ;
+        left:$cb-l ;
+    }
+    &#player3{
+        top:$rcb-t ;
+        left:$rcb-l ;
+    }
+    &#player4{
+        top:$lcb-t ;
+        left:$lcb-l ;
+    }
+    &#player5{
+        top:$rwb-t ;
+        left:$rwb-l ;
+    }
+    &#player6{
+        top:$lwb-t ;
+        left:$lwb-l ;
+    }
+    &#player7{
+        top:$rch-t ;
+        left:$rch-l ;
+    }
+    &#player8{
+        top:$lch-t ;
+        left:$lch-l ;
+    }
+    &#player9{
+        top:$rst-t ;
+        left:$rst-l ;
+    }
+    &#player10{
+        top:$lst-t ;
+        left:$lst-l ;
+    }
+    &#player11{
+        top:$cf-t ;
+        left:$cf-l ;
+    }
+    
+}

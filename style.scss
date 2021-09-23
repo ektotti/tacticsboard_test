@@ -1,4 +1,14 @@
-@import '_formation.scss';
+@import 'css/formation';
+@import 'css/pulldown.scss';
+
+#container{
+    display:flex;
+}
+
+.config{
+    padding:5px;
+    background-color: gray;
+}
 
 .field{
     position:relative;
@@ -8,7 +18,7 @@
     background-position: center;
     width:1000px;
     height: 750px;
-    margin:50px auto;
+    margin:0 auto;
     border:none;
     z-index: 100;
 }
@@ -38,30 +48,37 @@
         &__name{
             width: 60px;
             text-align: center;
-            background-color: transparent;
+            background-color:transparent;
             font-size: x-small;
         }
 
 
         // formの表示と非表示をclickイベントで操作
         &__name--set{
+            display:flex;
+            flex-direction: column;
             position: absolute;
-            display: none;
+            width:200px;
+            height:100px;
             top:50%;
-            left:50%;
-            transform:translate(-50%, -50%);
             z-index: 1000;
-            background-color: gray;
-            &.inview{
-                display:block;
-            }
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            border: 1px solid white;
 
         }
 
         &__name--input{
-            width: 60px;
+            width: 90%;
             text-align: center;
-            background-color: transparent;
+            background-color: white;
+            margin-bottom: 5px;
+        }
+
+        &__name--button{
+            width:93%;
         }
 
     }
