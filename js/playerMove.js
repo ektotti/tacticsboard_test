@@ -48,7 +48,6 @@ for(let i = 0; i < 38; i++){
 }
 
 for(let k = 0; k < FORMATION.length; k++ ){
-    console.log(FORMATION[k]);
     FORMATION[k].addEventListener("click", function(){ 
         let selectedSystem = FORMATION[k].id; 
         for(let i2 = 0; i2 < 38; i2++){

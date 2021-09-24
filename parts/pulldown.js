@@ -1,5 +1,5 @@
-const title = document.querySelector('.formation__title');
-const backsMenu = document.querySelector('.formation__backsMenu');
+const title = document.querySelectorAll('.formation__title');
+const backsMenu = document.querySelectorAll('.formation__backsMenu');
 
 const threeBTitle = document.querySelector('.formation__threeB--title');
 const threeB = document.querySelector('.formation__threeB');
@@ -14,10 +14,11 @@ const fiveBTitle = document.querySelector('.formation__fiveB--title');
 const fiveB = document.querySelector('.formation__fiveB');
 const fiveBList = document.querySelector('.fiveB__list');
 
-
-title.addEventListener('click', function(){
-    backsMenu.classList.toggle('inview');
-});
+for(let i = 0; i<2; i++){
+    title[i].addEventListener('click', function(){
+        backsMenu[i].classList.toggle('inview');
+    });
+}
 
 threeBTitle.addEventListener('click', function(){
     threeB.classList.toggle('inview');

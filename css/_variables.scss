@@ -1,47 +1,139 @@
-$gk-t:46.6%;
-$gk-l:5%;
+$agk-t:47.3%;
+$agk-l:5%;
 
-$cb-t:46.6%;
-$cb-l:18%;
+$acb-t:47.3%;
+$acb-l:18%;
 
-$lcb-t:30.6%;
-$lcb-l:18%;
+$alcb-t:30.6%;
+$alcb-l:18%;
 
-$rcb-t:62%;
-$rcb-l:18%;
+$arcb-t:62%;
+$arcb-l:18%;
 
-$lsb-t:13.3%;
-$lsb-l:21%;
+$alsb-t:13.3%;
+$alsb-l:21%;
 
-$rsb-t:78.6%;
-$rsb-l:21%;
+$arsb-t:78.6%;
+$arsb-l:21%;
 
-$lwb-t:100px;
-$lwb-l:500px;
+$alwb-t:13.3%;
+$alwb-l:50%;
 
-$rwb-t:590px;
-$rwb-l:500px;
+$arwb-t:78.7%;
+$arwb-l:50%;
 
-$lch-t:295px;
-$lch-l:330px;
+$aank-t:47.3%;
+$aank-l:31.5%;
 
-$rch-t:415px;
-$rch-l:330px;
+$alch-t:40%;
+$alch-l:33%;
 
-$lsh-t:175px;
-$lsh-l:620px;
+$arch-t:55.3%;
+$arch-l:33%;
 
-$rsh-t:525px;
-$rsh-l:620px;
+$alih-t:33.3%;
+$alih-l:59%;
 
-$omf-t:46.6%;
-$omf-l:620px;
+$arih-t:61.3%;
+$arih-l:59%;
 
-$lst-t:260px;
-$lst-l:655px;
+$alsh-t:13.3%;
+$alsh-l:62%;
 
-$rst-t:445px;
-$rst-l:655px;
+$arsh-t:78.6%;
+$arsh-l:62%;
 
-$cf-t:46.6%;
-$cf-l:750px;
+$aomf-t:47.3%;
+$aomf-l:62%;
+
+$alst-t:34.7%;
+$alst-l:65.5%;
+
+$arst-t:59.3%;
+$arst-l:65.5%;
+
+$alw-t:13.3%;
+$alw-l:75%;
+
+$arw-t:78.6%;
+$arw-l:75%;
+
+$alf-t:33.3%;
+$alf-l:75%;
+
+$arf-t:59.3%;
+$arf-l:75%;
+
+$acf-t:47.3%;
+$acf-l:75%;
+
+
+// bteam ポジション
+$bgk-t:$agk-t;
+$bgk-l:95 - $agk-l;
+
+$bcb-t:$acb-t;
+$bcb-l:95 - $acb-l;
+
+$blcb-t:97 - $alcb-t;
+$blcb-l:95 - $alcb-l;
+
+$brcb-t:97 - $arcb-t;
+$brcb-l:95 - $arcb-l;
+
+$blsb-t:97 - $alsb-t;
+$blsb-l:95 - $alsb-l;
+
+$brsb-t:97 - $arsb-t;
+$brsb-l:95 - $arsb-l;
+
+$blwb-t:97 - $alwb-t;
+$blwb-l:95 - $alwb-l;
+
+$brwb-t:97 - $arwb-t;
+$brwb-l:95 - $arwb-l;
+
+$bank-t:$aank-t;
+$bank-l:95 - $aank-l;
+
+$blch-t:97 - $alch-t;
+$blch-l:95 - $alch-l;
+
+$brch-t:97 - $arch-t;
+$brch-l:95 - $arch-l;
+
+$blih-t:97 - $alih-t;
+$blih-l:95 - $alih-l;
+
+$brih-t:97 - $arih-t;
+$brih-l:95 - $arih-l;
+
+$blsh-t:97 - $alsh-t;
+$blsh-l:95 - $alsh-l;
+
+$brsh-t:97 - $arsh-t;
+$brsh-l:95 - $arsh-l;
+
+$bomf-t:$aomf-t;
+$bomf-l:95 - $aomf-l;
+
+$blst-t:97 - $alst-t;
+$blst-l:95 - $alst-l;
+
+$brst-t:97 - $arst-t;
+$brst-l:95 - $arst-l;
+
+$blw-t:97 - $alw-t;
+$blw-l:95 - $alw-l;
+
+$brw-t:97 - $arw-t;
+$brw-l:95 - $arw-l;
+
+$blf-t:97 - $alf-t;
+$blf-l:95 - $alf-l;
+
+$brf-t:97 - $arf-t;
+$brf-l:95 - $arf-l;
+
+$bcf-t:$acf-t;
+$bcf-l:95 - $acf-l;

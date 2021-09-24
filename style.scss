@@ -6,8 +6,13 @@
 }
 
 .config{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding:5px;
     background-color: gray;
+    position: relative;
+    z-index: 0;
 }
 
 .field{
@@ -24,64 +29,88 @@
 }
 
 
-    .player{
-        position: absolute;
+.player{
+    position: absolute;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+
+    &__icon{
+        height: 30px;
+        width: 30px;
+        border: 1px solid black;
+        border-radius: 50% 50%;
+        margin: auto;
+        // pointer-events: none;
+
+        &.mouseDowned{
+            z-index: 1000;
+            color:gray;
+            box-shadow: 0 0 2px 2px gray inset;
+        }
+    }
+
+    &__name{
         width: 60px;
+        text-align: center;
+        background-color:transparent;
+        font-size: x-small;
+    }
+
+}
+
+.playerSet{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    width:200px;
+    top:55px;
+    z-index: -100;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin:5px 0 0 0;
+    
+    
+    &__list{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        border: 1px solid white;
+        width:100%;
+        padding-bottom: 10px;
+    }
 
-        &__icon{
-            height: 30px;
-            width: 30px;
-            border: 1px solid black;
-            border-radius: 50% 50%;
-            margin: auto;
-            // pointer-events: none;
+    &__content{
+        display: flex;
+    }
 
-            &.mouseDowned{
-                z-index: 1000;
-                color:gray;
-                box-shadow: 0 0 2px 2px gray inset;
-            }
-        }
+    &__num--title{
+        width:34px;
+        height:21px;
+        border-radius: 2px;
+        border:none;
+        font-size: small;
+        margin-right: 2px;
+    }
 
-        &__name{
-            width: 60px;
-            text-align: center;
-            background-color:transparent;
-            font-size: x-small;
-        }
-
-
-        // formの表示と非表示をclickイベントで操作
-        &__name--set{
-            display:flex;
-            flex-direction: column;
-            position: absolute;
-            width:200px;
-            height:100px;
-            top:50%;
-            z-index: 1000;
-            background-color: black;
-            justify-content: center;
-            align-items: center;
-            margin:0;
-            border: 1px solid white;
-
-        }
-
-        &__name--input{
-            width: 90%;
-            text-align: center;
-            background-color: white;
-            margin-bottom: 5px;
-        }
-
-        &__name--button{
-            width:93%;
-        }
+    &__name--title{
+        width:153px;
+        height:21px;
+        border-radius: 2px;
+        border:none;
+        font-size: small;
 
     }
+
+    &__button{
+        width:93%;
+    }
+}
+
+
+
+
 @for $i from 1 through 38 {
     #player#{$i}{
 
