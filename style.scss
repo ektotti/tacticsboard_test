@@ -22,7 +22,7 @@
     background-size: contain;
     background-position: center;
     width:1000px;
-    height: 750px;
+    height: 780px;
     margin:0 auto;
     border:none;
     z-index: 100;
@@ -34,14 +34,16 @@
     width: 60px;
     display: flex;
     flex-direction: column;
+    user-select: none;
 
     &__icon{
-        height: 30px;
-        width: 30px;
-        border: 1px solid black;
+        height: 40px;
+        width: 40px;
         border-radius: 50% 50%;
         margin: auto;
-        // pointer-events: none;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
 
         &.mouseDowned{
             z-index: 1000;
@@ -116,11 +118,15 @@
 
         @if $i <= 19 {
             & > .player__icon{
-                background-color:hotpink;
+                background-color:rgba(0,0,255,0.7);
+                border: 3px solid silver;
+                color:white;
             }
         } @else{
             & > .player__icon{
-                background-color:purple;
+                background-color:rgba(255,0,0,0.7);
+                border: 3px solid silver;
+                color:white;
             }
         }
     }

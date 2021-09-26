@@ -4,7 +4,7 @@
     @for $i from 12 through 19{
 
         &#player#{$i}{
-            top:690px;
+            top:90%;
             left:calc(500px - (#{$i} - 11) * 60px);
         }
 
@@ -12,7 +12,7 @@
     @for $i from 31 through 38{
 
         &#player#{$i}{
-            top:15px;
+            top:3%;
             left:calc(430px + (#{$i} - 30) * 60px);
         }
 
@@ -353,188 +353,188 @@
 }
 
 .player.four231B{
-    &#player1{
+    &#player20{
         top:$bgk-t ;
         left:$bgk-l ;
     }
-    &#player2{
+    &#player21{
         top:$blcb-t ;
         left:$blcb-l ;
     }
-    &#player3{
+    &#player22{
         top:$brcb-t ;
         left:$brcb-l ;
     }
-    &#player4{
+    &#player23{
         top:$blsb-t ;
         left:$blsb-l ;
     }
-    &#player5{
+    &#player24{
         top:$brsb-t ;
         left:$brsb-l ;
     }
-    &#player6{
+    &#player25{
         top:$blch-t ;
         left:$blch-l ;
     }
-    &#player7{
+    &#player26{
         top:$brch-t ;
         left:$brch-l ;
     }
-    &#player8{
+    &#player27{
         top:$blsh-t ;
         left:$blsh-l ;
     }
-    &#player9{
+    &#player28{
         top:$brsh-t ;
         left:$brsh-l ;
     }
-    &#player10{
+    &#player29{
         top:$bomf-t ;
         left:$bomf-l ;
     }
-    &#player11{
+    &#player30{
         top:$bcf-t ;
         left:$bcf-l ;
     }
 }
 
 .player.four42B{
-    &#player1{
+    &#player20{
         top:$bgk-t ;
         left:$bgk-l ;
     }
-    &#player2{
+    &#player21{
         top:$blcb-t ;
         left:$blcb-l ;
     }
-    &#player3{
+    &#player22{
         top:$brcb-t ;
         left:$brcb-l ;
     }
-    &#player4{
+    &#player23{
         top:$blsb-t ;
         left:$blsb-l ;
     }
-    &#player5{
+    &#player24{
         top:$brsb-t ;
         left:$brsb-l ;
     }
-    &#player6{
+    &#player25{
         top:$blch-t ;
         left:$blch-l ;
     }
-    &#player7{
+    &#player26{
         top:$brch-t ;
         left:$brch-l ;
     }
-    &#player8{
+    &#player27{
         top:$blsh-t ;
         left:$blsh-l ;
     }
-    &#player9{
+    &#player28{
         top:$brsh-t ;
         left:$brsh-l ;
     }
-    &#player10{
+    &#player29{
         top:$blf-t ;
         left:$blf-l ;
     }
-    &#player11{
+    &#player30{
         top:$brf-t ;
         left:$brf-l ;
     }
 }
 
 .player.four33B{
-    &#player1{
+    &#player20{
         top:$bgk-t ;
         left:$bgk-l ;
     }
-    &#player2{
+    &#player21{
         top:$blcb-t ;
         left:$blcb-l ;
     }
-    &#player3{
+    &#player22{
         top:$brcb-t ;
         left:$brcb-l ;
     }
-    &#player4{
+    &#player23{
         top:$blsb-t ;
         left:$blsb-l ;
     }
-    &#player5{
+    &#player24{
         top:$brsb-t ;
         left:$brsb-l ;
     }
-    &#player6{
+    &#player25{
         top:$bank-t ;
         left:$bank-l ;
     }
-    &#player7{
+    &#player26{
         top:$brih-t ;
         left:$brih-l ;
     }
-    &#player8{
+    &#player27{
         top:$blih-t ;
         left:$blih-l ;
     }
-    &#player9{
+    &#player28{
         top:$brw-t ;
         left:$brw-l ;
     }
-    &#player10{
+    &#player29{
         top:$blw-t ;
         left:$blw-l ;
     }
-    &#player11{
+    &#player30{
         top:$bcf-t ;
         left:$bcf-l ;
     }
 }
 
 .player.three43B{
-    &#player1{
+    &#player20{
         top:$bgk-t ;
         left:$bgk-l ;
     }
-    &#player2{
+    &#player21{
         top:$bcb-t ;
         left:$bcb-l ;
     }
-    &#player3{
+    &#player22{
         top:$brcb-t ;
         left:$brcb-l ;
     }
-    &#player4{
+    &#player23{
         top:$blcb-t ;
         left:$blcb-l ;
     }
-    &#player5{
+    &#player24{
         top:$brwb-t ;
         left:$brwb-l ;
     }
-    &#player6{
+    &#player25{
         top:$blwb-t ;
         left:$blwb-l ;
     }
-    &#player7{
+    &#player26{
         top:$brch-t ;
         left:$brch-l ;
     }
-    &#player8{
+    &#player27{
         top:$blch-t ;
         left:$blch-l ;
     }
-    &#player9{
+    &#player28{
         top:$brst-t ;
         left:$brst-l ;
     }
-    &#player10{
+    &#player29{
         top:$blst-t ;
         left:$blst-l ;
     }
-    &#player11{
+    &#player30{
         top:$bcf-t ;
         left:$bcf-l ;
     }
@@ -542,47 +542,47 @@
 }
 
 .player.three52B{
-    &#player1{
+    &#player20{
         top:$bgk-t ;
         left:$bgk-l ;
     }
-    &#player2{
+    &#player21{
         top:$bcb-t ;
         left:$bcb-l ;
     }
-    &#player3{
+    &#player22{
         top:$brcb-t ;
         left:$brcb-l ;
     }
-    &#player4{
+    &#player23{
         top:$blcb-t ;
         left:$blcb-l ;
     }
-    &#player5{
+    &#player24{
         top:$brwb-t ;
         left:$brwb-l ;
     }
-    &#player6{
+    &#player25{
         top:$blwb-t ;
         left:$blwb-l ;
     }
-    &#player7{
+    &#player26{
         top:$brch-t ;
         left:$brch-l ;
     }
-    &#player8{
+    &#player27{
         top:$blch-t ;
         left:$blch-l ;
     }
-    &#player9{
+    &#player28{
         top:$bomf-t ;
         left:$bomf-l ;
     }
-    &#player10{
+    &#player29{
         top:$blf-t ;
         left:$blf-l ;
     }
-    &#player11{
+    &#player30{
         top:$brf-t ;
         left:$brf-l ;
     }
@@ -590,47 +590,47 @@
 }
 
 .player.five32B{
-    &#player1{
+    &#player20{
         top:$bgk-t ;
         left:$bgk-l ;
     }
-    &#player2{
+    &#player21{
         top:$bcb-t ;
         left:$bcb-l ;
     }
-    &#player3{
+    &#player22{
         top:$brcb-t ;
         left:$brcb-l ;
     }
-    &#player4{
+    &#player23{
         top:$blcb-t ;
         left:$blcb-l ;
     }
-    &#player5{
+    &#player24{
         top:$brsb-t ;
         left:$brsb-l ;
     }
-    &#player6{
+    &#player25{
         top:$blsb-t ;
         left:$blsb-l ;
     }
-    &#player7{
+    &#player26{
         top:$bank-t ;
         left:$bank-l ;
     }
-    &#player8{
+    &#player27{
         top:$blih-t ;
         left:$blih-l ;
     }
-    &#player9{
+    &#player28{
         top:$brih-t ;
         left:$brih-l ;
     }
-    &#player10{
+    &#player29{
         top:$blf-t ;
         left:$blf-l ;
     }
-    &#player11{
+    &#player30{
         top:$brf-t ;
         left:$brf-l ;
     }
@@ -638,47 +638,47 @@
 }
 
 .player.five41B{
-    &#player1{
+    &#player20{
         top:$bgk-t ;
         left:$bgk-l ;
     }
-    &#player2{
+    &#player21{
         top:$bcb-t ;
         left:$bcb-l ;
     }
-    &#player3{
+    &#player22{
         top:$brcb-t ;
         left:$brcb-l ;
     }
-    &#player4{
+    &#player23{
         top:$blcb-t ;
         left:$blcb-l ;
     }
-    &#player5{
+    &#player24{
         top:$brsb-t ;
         left:$brsb-l ;
     }
-    &#player6{
+    &#player25{
         top:$blsb-t ;
         left:$blsb-l ;
     }
-    &#player7{
+    &#player26{
         top:$blch-t ;
         left:$blch-l ;
     }
-    &#player8{
+    &#player27{
         top:$brch-t ;
         left:$brch-l ;
     }
-    &#player9{
+    &#player28{
         top:$brwb-t ;
         left:$brwb-l ;
     }
-    &#player10{
+    &#player29{
         top:$blwb-t ;
         left:$blwb-l ;
     }
-    &#player11{
+    &#player30{
         top:$bcf-t ;
         left:$bcf-l ;
     }

@@ -1,80 +1,80 @@
 .player#player12 {
-  top: 690px;
+  top: 90%;
   left: calc(500px - (12 - 11) * 60px);
 }
 
 .player#player13 {
-  top: 690px;
+  top: 90%;
   left: calc(500px - (13 - 11) * 60px);
 }
 
 .player#player14 {
-  top: 690px;
+  top: 90%;
   left: calc(500px - (14 - 11) * 60px);
 }
 
 .player#player15 {
-  top: 690px;
+  top: 90%;
   left: calc(500px - (15 - 11) * 60px);
 }
 
 .player#player16 {
-  top: 690px;
+  top: 90%;
   left: calc(500px - (16 - 11) * 60px);
 }
 
 .player#player17 {
-  top: 690px;
+  top: 90%;
   left: calc(500px - (17 - 11) * 60px);
 }
 
 .player#player18 {
-  top: 690px;
+  top: 90%;
   left: calc(500px - (18 - 11) * 60px);
 }
 
 .player#player19 {
-  top: 690px;
+  top: 90%;
   left: calc(500px - (19 - 11) * 60px);
 }
 
 .player#player31 {
-  top: 15px;
+  top: 3%;
   left: calc(430px + (31 - 30) * 60px);
 }
 
 .player#player32 {
-  top: 15px;
+  top: 3%;
   left: calc(430px + (32 - 30) * 60px);
 }
 
 .player#player33 {
-  top: 15px;
+  top: 3%;
   left: calc(430px + (33 - 30) * 60px);
 }
 
 .player#player34 {
-  top: 15px;
+  top: 3%;
   left: calc(430px + (34 - 30) * 60px);
 }
 
 .player#player35 {
-  top: 15px;
+  top: 3%;
   left: calc(430px + (35 - 30) * 60px);
 }
 
 .player#player36 {
-  top: 15px;
+  top: 3%;
   left: calc(430px + (36 - 30) * 60px);
 }
 
 .player#player37 {
-  top: 15px;
+  top: 3%;
   left: calc(430px + (37 - 30) * 60px);
 }
 
 .player#player38 {
-  top: 15px;
+  top: 3%;
   left: calc(430px + (38 - 30) * 60px);
 }
 
@@ -463,387 +463,387 @@
   left: 75%;
 }
 
-.player.four231B#player1 {
+.player.four231B#player20 {
   top: 47.3%;
   left: 90%;
 }
 
-.player.four231B#player2 {
-  top: 66.4%;
+.player.four231B#player21 {
+  top: 30.6%;
   left: 77%;
 }
 
-.player.four231B#player3 {
-  top: 35%;
+.player.four231B#player22 {
+  top: 62%;
   left: 77%;
 }
 
-.player.four231B#player4 {
-  top: 83.7%;
+.player.four231B#player23 {
+  top: 13.3%;
   left: 74%;
 }
 
-.player.four231B#player5 {
-  top: 18.4%;
+.player.four231B#player24 {
+  top: 78.6%;
   left: 74%;
 }
 
-.player.four231B#player6 {
-  top: 57%;
+.player.four231B#player25 {
+  top: 40%;
   left: 62%;
 }
 
-.player.four231B#player7 {
-  top: 41.7%;
+.player.four231B#player26 {
+  top: 55.3%;
   left: 62%;
 }
 
-.player.four231B#player8 {
-  top: 83.7%;
+.player.four231B#player27 {
+  top: 13.3%;
   left: 33%;
 }
 
-.player.four231B#player9 {
-  top: 18.4%;
+.player.four231B#player28 {
+  top: 78.6%;
   left: 33%;
 }
 
-.player.four231B#player10 {
+.player.four231B#player29 {
   top: 47.3%;
   left: 33%;
 }
 
-.player.four231B#player11 {
+.player.four231B#player30 {
   top: 47.3%;
   left: 20%;
 }
 
-.player.four42B#player1 {
+.player.four42B#player20 {
   top: 47.3%;
   left: 90%;
 }
 
-.player.four42B#player2 {
-  top: 66.4%;
+.player.four42B#player21 {
+  top: 30.6%;
   left: 77%;
 }
 
-.player.four42B#player3 {
-  top: 35%;
+.player.four42B#player22 {
+  top: 62%;
   left: 77%;
 }
 
-.player.four42B#player4 {
-  top: 83.7%;
+.player.four42B#player23 {
+  top: 13.3%;
   left: 74%;
 }
 
-.player.four42B#player5 {
-  top: 18.4%;
+.player.four42B#player24 {
+  top: 78.6%;
   left: 74%;
 }
 
-.player.four42B#player6 {
-  top: 57%;
+.player.four42B#player25 {
+  top: 40%;
   left: 62%;
 }
 
-.player.four42B#player7 {
-  top: 41.7%;
+.player.four42B#player26 {
+  top: 55.3%;
   left: 62%;
 }
 
-.player.four42B#player8 {
-  top: 83.7%;
+.player.four42B#player27 {
+  top: 13.3%;
   left: 33%;
 }
 
-.player.four42B#player9 {
-  top: 18.4%;
+.player.four42B#player28 {
+  top: 78.6%;
   left: 33%;
 }
 
-.player.four42B#player10 {
-  top: 63.7%;
+.player.four42B#player29 {
+  top: 33.3%;
   left: 20%;
 }
 
-.player.four42B#player11 {
-  top: 37.7%;
+.player.four42B#player30 {
+  top: 59.3%;
   left: 20%;
 }
 
-.player.four33B#player1 {
+.player.four33B#player20 {
   top: 47.3%;
   left: 90%;
 }
 
-.player.four33B#player2 {
-  top: 66.4%;
+.player.four33B#player21 {
+  top: 30.6%;
   left: 77%;
 }
 
-.player.four33B#player3 {
-  top: 35%;
+.player.four33B#player22 {
+  top: 62%;
   left: 77%;
 }
 
-.player.four33B#player4 {
-  top: 83.7%;
+.player.four33B#player23 {
+  top: 13.3%;
   left: 74%;
 }
 
-.player.four33B#player5 {
-  top: 18.4%;
+.player.four33B#player24 {
+  top: 78.6%;
   left: 74%;
 }
 
-.player.four33B#player6 {
+.player.four33B#player25 {
   top: 47.3%;
   left: 63.5%;
 }
 
-.player.four33B#player7 {
-  top: 35.7%;
+.player.four33B#player26 {
+  top: 61.3%;
   left: 36%;
 }
 
-.player.four33B#player8 {
-  top: 63.7%;
+.player.four33B#player27 {
+  top: 33.3%;
   left: 36%;
 }
 
-.player.four33B#player9 {
-  top: 18.4%;
+.player.four33B#player28 {
+  top: 78.6%;
   left: 20%;
 }
 
-.player.four33B#player10 {
-  top: 83.7%;
+.player.four33B#player29 {
+  top: 13.3%;
   left: 20%;
 }
 
-.player.four33B#player11 {
+.player.four33B#player30 {
   top: 47.3%;
   left: 20%;
 }
 
-.player.three43B#player1 {
+.player.three43B#player20 {
   top: 47.3%;
   left: 90%;
 }
 
-.player.three43B#player2 {
+.player.three43B#player21 {
   top: 47.3%;
   left: 77%;
 }
 
-.player.three43B#player3 {
-  top: 35%;
+.player.three43B#player22 {
+  top: 62%;
   left: 77%;
 }
 
-.player.three43B#player4 {
-  top: 66.4%;
+.player.three43B#player23 {
+  top: 30.6%;
   left: 77%;
 }
 
-.player.three43B#player5 {
-  top: 18.3%;
+.player.three43B#player24 {
+  top: 78.7%;
   left: 45%;
 }
 
-.player.three43B#player6 {
-  top: 83.7%;
+.player.three43B#player25 {
+  top: 13.3%;
   left: 45%;
 }
 
-.player.three43B#player7 {
-  top: 41.7%;
+.player.three43B#player26 {
+  top: 55.3%;
   left: 62%;
 }
 
-.player.three43B#player8 {
-  top: 57%;
+.player.three43B#player27 {
+  top: 40%;
   left: 62%;
 }
 
-.player.three43B#player9 {
-  top: 37.7%;
+.player.three43B#player28 {
+  top: 59.3%;
   left: 29.5%;
 }
 
-.player.three43B#player10 {
-  top: 62.3%;
+.player.three43B#player29 {
+  top: 34.7%;
   left: 29.5%;
 }
 
-.player.three43B#player11 {
+.player.three43B#player30 {
   top: 47.3%;
   left: 20%;
 }
 
-.player.three52B#player1 {
+.player.three52B#player20 {
   top: 47.3%;
   left: 90%;
 }
 
-.player.three52B#player2 {
+.player.three52B#player21 {
   top: 47.3%;
   left: 77%;
 }
 
-.player.three52B#player3 {
-  top: 35%;
+.player.three52B#player22 {
+  top: 62%;
   left: 77%;
 }
 
-.player.three52B#player4 {
-  top: 66.4%;
+.player.three52B#player23 {
+  top: 30.6%;
   left: 77%;
 }
 
-.player.three52B#player5 {
-  top: 18.3%;
+.player.three52B#player24 {
+  top: 78.7%;
   left: 45%;
 }
 
-.player.three52B#player6 {
-  top: 83.7%;
+.player.three52B#player25 {
+  top: 13.3%;
   left: 45%;
 }
 
-.player.three52B#player7 {
-  top: 41.7%;
+.player.three52B#player26 {
+  top: 55.3%;
   left: 62%;
 }
 
-.player.three52B#player8 {
-  top: 57%;
+.player.three52B#player27 {
+  top: 40%;
   left: 62%;
 }
 
-.player.three52B#player9 {
+.player.three52B#player28 {
   top: 47.3%;
   left: 33%;
 }
 
-.player.three52B#player10 {
-  top: 63.7%;
+.player.three52B#player29 {
+  top: 33.3%;
   left: 20%;
 }
 
-.player.three52B#player11 {
-  top: 37.7%;
+.player.three52B#player30 {
+  top: 59.3%;
   left: 20%;
 }
 
-.player.five32B#player1 {
+.player.five32B#player20 {
   top: 47.3%;
   left: 90%;
 }
 
-.player.five32B#player2 {
+.player.five32B#player21 {
   top: 47.3%;
   left: 77%;
 }
 
-.player.five32B#player3 {
-  top: 35%;
+.player.five32B#player22 {
+  top: 62%;
   left: 77%;
 }
 
-.player.five32B#player4 {
-  top: 66.4%;
+.player.five32B#player23 {
+  top: 30.6%;
   left: 77%;
 }
 
-.player.five32B#player5 {
-  top: 18.4%;
+.player.five32B#player24 {
+  top: 78.6%;
   left: 74%;
 }
 
-.player.five32B#player6 {
-  top: 83.7%;
+.player.five32B#player25 {
+  top: 13.3%;
   left: 74%;
 }
 
-.player.five32B#player7 {
+.player.five32B#player26 {
   top: 47.3%;
   left: 63.5%;
 }
 
-.player.five32B#player8 {
-  top: 63.7%;
+.player.five32B#player27 {
+  top: 33.3%;
   left: 36%;
 }
 
-.player.five32B#player9 {
-  top: 35.7%;
+.player.five32B#player28 {
+  top: 61.3%;
   left: 36%;
 }
 
-.player.five32B#player10 {
-  top: 63.7%;
+.player.five32B#player29 {
+  top: 33.3%;
   left: 20%;
 }
 
-.player.five32B#player11 {
-  top: 37.7%;
+.player.five32B#player30 {
+  top: 59.3%;
   left: 20%;
 }
 
-.player.five41B#player1 {
+.player.five41B#player20 {
   top: 47.3%;
   left: 90%;
 }
 
-.player.five41B#player2 {
+.player.five41B#player21 {
   top: 47.3%;
   left: 77%;
 }
 
-.player.five41B#player3 {
-  top: 35%;
+.player.five41B#player22 {
+  top: 62%;
   left: 77%;
 }
 
-.player.five41B#player4 {
-  top: 66.4%;
+.player.five41B#player23 {
+  top: 30.6%;
   left: 77%;
 }
 
-.player.five41B#player5 {
-  top: 18.4%;
+.player.five41B#player24 {
+  top: 78.6%;
   left: 74%;
 }
 
-.player.five41B#player6 {
-  top: 83.7%;
+.player.five41B#player25 {
+  top: 13.3%;
   left: 74%;
 }
 
-.player.five41B#player7 {
-  top: 57%;
+.player.five41B#player26 {
+  top: 40%;
   left: 62%;
 }
 
-.player.five41B#player8 {
-  top: 41.7%;
+.player.five41B#player27 {
+  top: 55.3%;
   left: 62%;
 }
 
-.player.five41B#player9 {
-  top: 18.3%;
+.player.five41B#player28 {
+  top: 78.7%;
   left: 45%;
 }
 
-.player.five41B#player10 {
-  top: 83.7%;
+.player.five41B#player29 {
+  top: 13.3%;
   left: 45%;
 }
 
-.player.five41B#player11 {
+.player.five41B#player30 {
   top: 47.3%;
   left: 20%;
 }
@@ -981,7 +981,7 @@ h2, span {
   background-size: contain;
   background-position: center;
   width: 1000px;
-  height: 750px;
+  height: 780px;
   margin: 0 auto;
   border: none;
   z-index: 100;
@@ -997,14 +997,20 @@ h2, span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .player__icon {
-  height: 30px;
-  width: 30px;
-  border: 1px solid black;
+  height: 40px;
+  width: 40px;
   border-radius: 50% 50%;
   margin: auto;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
 }
 
 .player__icon.mouseDowned {
@@ -1087,154 +1093,230 @@ h2, span {
 }
 
 #player1 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player2 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player3 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player4 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player5 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player6 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player7 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player8 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player9 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player10 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player11 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player12 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player13 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player14 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player15 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player16 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player17 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player18 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player19 > .player__icon {
-  background-color: hotpink;
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player20 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player21 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player22 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player23 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player24 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player25 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player26 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player27 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player28 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player29 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player30 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player31 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player32 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player33 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player34 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player35 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player36 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player37 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 
 #player38 > .player__icon {
-  background-color: purple;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 3px solid silver;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

@@ -47,15 +47,32 @@ for(let i = 0; i < 38; i++){
 
 }
 
-for(let k = 0; k < FORMATION.length; k++ ){
+for(let k = 0; k < FORMATION.length/2; k++ ){
+    
     FORMATION[k].addEventListener("click", function(){ 
         let selectedSystem = FORMATION[k].id; 
-        for(let i2 = 0; i2 < 38; i2++){
+        for(let i2 = 0; i2 < 11; i2++){
             let classtName = player[i2].className;
-            const pattern = new RegExp(/three\d+|four\d+|five\d+/);
+            const pattern = new RegExp(/three\d+[AB]|four\d+[AB]|five\d+[AB]/);
             let existingSystem = classtName.match(pattern);
             player[i2].classList.remove(existingSystem);  
             player[i2].classList.add(selectedSystem);  
         }
     });
+    
+}
+
+for(let k = FORMATION.length/2; k < FORMATION.length; k++ ){
+    
+    FORMATION[k].addEventListener("click", function(){ 
+        let selectedSystem = FORMATION[k].id; 
+        for(let i2 = 19; i2 < 30; i2++){
+            let classtName = player[i2].className;
+            const pattern = new RegExp(/three\d+[AB]|four\d+[AB]|five\d+[AB]/);
+            let existingSystem = classtName.match(pattern);
+            player[i2].classList.remove(existingSystem);  
+            player[i2].classList.add(selectedSystem);  
+        }
+    });
+    
 }
