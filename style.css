@@ -951,6 +951,15 @@ h2, span {
           transform: none;
 }
 
+.movable, .ball, .player {
+  position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
 #container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -974,6 +983,16 @@ h2, span {
   z-index: 0;
 }
 
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .field {
   position: relative;
   background-image: url(image/fieldImage.png);
@@ -987,9 +1006,23 @@ h2, span {
   z-index: 100;
 }
 
+.ball {
+  width: 50px;
+}
+
+.ball img {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.ball.mouseDowned {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
 .player {
-  position: absolute;
-  width: 60px;
+  width: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -997,27 +1030,25 @@ h2, span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .player__icon {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: 50% 50%;
   margin: auto;
   text-align: center;
   line-height: 40px;
-  cursor: pointer;
+  pointer-events: none;
 }
 
-.player__icon.mouseDowned {
-  z-index: 1000;
-  color: gray;
-  -webkit-box-shadow: 0 0 2px 2px gray inset;
-          box-shadow: 0 0 2px 2px gray inset;
+.player.mouseDowned {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: none;
+  transition: none;
 }
 
 .player__name {
@@ -1025,6 +1056,11 @@ h2, span {
   text-align: center;
   background-color: transparent;
   font-size: x-small;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
 }
 
 .playerSet {

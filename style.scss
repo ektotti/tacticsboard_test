@@ -1,5 +1,13 @@
 @import 'css/formation';
-@import 'css/pulldown.scss';
+@import 'css/pulldown';
+@import 'css/variables';
+
+
+.movable{
+    position: absolute;
+    user-select: none;
+    cursor: pointer;    
+}
 
 #container{
     display:flex;
@@ -15,6 +23,11 @@
     z-index: 0;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
 .field{
     position:relative;
     background-image: url(image/fieldImage.png);
@@ -28,28 +41,42 @@
     z-index: 100;
 }
 
+.ball{
+    width:50px;
+    @extend .movable;
+    & img{
+        width:100%;
+        height:100%;
+        pointer-events: none;
+    }
+
+    &.mouseDowned{
+        transform: scale($SelectedScale);
+    }
+}
+
 
 .player{
-    position: absolute;
-    width: 60px;
+    @extend .movable;
+    width: 80px;
     display: flex;
     flex-direction: column;
-    user-select: none;
+    transition : all 0.5s;
 
     &__icon{
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
         border-radius: 50% 50%;
         margin: auto;
         text-align: center;
         line-height: 40px;
-        cursor: pointer;
+        pointer-events: none;
 
-        &.mouseDowned{
-            z-index: 1000;
-            color:gray;
-            box-shadow: 0 0 2px 2px gray inset;
-        }
+    }
+
+    &.mouseDowned{
+        transform: scale($SelectedScale);
+        transition:none;
     }
 
     &__name{
@@ -57,6 +84,8 @@
         text-align: center;
         background-color:transparent;
         font-size: x-small;
+        user-select: none;
+        pointer-events: none;
     }
 
 }
@@ -118,13 +147,13 @@
 
         @if $i <= 19 {
             & > .player__icon{
-                background-color:rgba(0,0,255,0.7);
+                background-color:$cTeamA;
                 border: 3px solid silver;
                 color:white;
             }
         } @else{
             & > .player__icon{
-                background-color:rgba(255,0,0,0.7);
+                background-color:$cTeamB;
                 border: 3px solid silver;
                 color:white;
             }

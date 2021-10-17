@@ -1,78 +1,49 @@
-const player = document.querySelectorAll('.player');
-const player_icon = document.querySelectorAll('.player__icon');
-const field = document.querySelector('.field');
-const FORMATION = document.querySelectorAll('.formationNum');
-
-
-let x;
-let y;
-
-
-for(let i = 0; i < 38; i++){
-    
-    player[i].ondragstart = function(event){
-        return false;
-      }
-
-    player_icon[i].addEventListener("mousedown", OnMouseDown);
-    
-    function OnMouseDown(event){
-        // console.log(this.offsetLeft);
-        this.classList.add('mouseDowned');
-        x = event.pageX - player[i].offsetLeft;
-        y = event.pageY - player[i].offsetTop;
-    
-        field.addEventListener("mousemove", OnMouseMove);
+class OnClickMove{
+    constructor(el){
+        this.els = document.querySelectorAll(el);
+        this.field = document.querySelector('.field');
     }
     
-    function OnMouseMove(event){
-        let mouseDowned = document.querySelector(".mouseDowned");
-    
-        player[i].style.top = event.pageY - y + "px";
-        player[i].style.left = event.pageX - x + "px";
-    
-        mouseDowned.addEventListener("mouseup", OnMouseUp);
-    }
-    
-    function OnMouseUp(){
-        let mouseDowned = document.querySelector(".mouseDowned");
-        console.log(mouseDowned);
-    
-        field.removeEventListener("mousemove", OnMouseMove);
-        mouseDowned.removeEventListener("mousedown", OnMouseMove);
-        this.removeEventListener("mouseup", OnMouseUp);
-    
-        mouseDowned.classList.remove("mouseDowned");
+    _onMouseDown(event){
+        const target = event.target;
+        target.classList.add('mouseDowned');
+        this.x = event.pageX - event.target.offsetLeft;
+        this.y = event.pageY - event.target.offsetTop;
+        // target.style.backgroundColor = 'black'
+        this.field.addEventListener("mousemove", this._onMouseMove.bind(this));
     }
 
-}
-
-for(let k = 0; k < FORMATION.length/2; k++ ){
-    
-    FORMATION[k].addEventListener("click", function(){ 
-        let selectedSystem = FORMATION[k].id; 
-        for(let i2 = 0; i2 < 11; i2++){
-            let classtName = player[i2].className;
-            const pattern = new RegExp(/three\d+[AB]|four\d+[AB]|five\d+[AB]/);
-            let existingSystem = classtName.match(pattern);
-            player[i2].classList.remove(existingSystem);  
-            player[i2].classList.add(selectedSystem);  
+    _onMouseMove(event){
+        // let mouseDowned = document.querySelector(".mouseDowned");
+        const target = document.querySelector('.mouseDowned');
+        if(target){
+            target.style.top = event.pageY - this.y + "px";
+            target.style.left = event.pageX - this.x + "px";
+            target.addEventListener("mouseup", this._onMouseUp.bind(this));
+        }else{
+        this.field.removeEventListener("mousemove", this._onMouseMove.bind(this));
         }
-    });
-    
-}
+    }
 
-for(let k = FORMATION.length/2; k < FORMATION.length; k++ ){
-    
-    FORMATION[k].addEventListener("click", function(){ 
-        let selectedSystem = FORMATION[k].id; 
-        for(let i2 = 19; i2 < 30; i2++){
-            let classtName = player[i2].className;
-            const pattern = new RegExp(/three\d+[AB]|four\d+[AB]|five\d+[AB]/);
-            let existingSystem = classtName.match(pattern);
-            player[i2].classList.remove(existingSystem);  
-            player[i2].classList.add(selectedSystem);  
+    _onMouseUp(){
+        // let mouseDowned = document.querySelector(".mouseDowned");
+        this.field.removeEventListener("mousemove", this._onMouseMove.bind(this));
+        const target = document.querySelector('.mouseDowned');
+        if(target){
+            target.removeEventListener("mousedown", this._onMouseDown.bind(this));
+            target.classList.remove("mouseDowned");
         }
-    });
-    
+        // target.removeEventListener("mouseup", this._onMouseUp.bind(this));
+    }
+
+    move(){
+        this.els.forEach(function(el){
+            el.ondragstart = function(event){
+                return false;
+                }
+            el.addEventListener("mousedown", this._onMouseDown.bind(this));
+        }, this)
+            
+    }
+
 }

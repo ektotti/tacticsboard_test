@@ -1,6 +1,7 @@
 @import '_variables.scss';
 
 .player{
+
     @for $i from 12 through 19{
 
         &#player#{$i}{
